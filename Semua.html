@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memo 33!</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/117/5/png-transparent-eastern-screech-owl-grey-grey-art-s-blue-grey-color.png" type="w-full h-[500px] bg-cover bg-center">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function changeVideo(videoUrl) {
+            const iframe = document.getElementById('videoPlayer');
+            iframe.src = videoUrl;
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-100">
+    <div class="bg-blue-500 text-white text-center p-4 text-xl font-bold">Trailer Movie Diklat Media Moklet 33</div>
+    <br>
+
+    <div class="flex h-[calc(100vh-100px)]">
+        <!-- Content Area on the left -->
+        <div class="w-3/4 bg-black p-3 flex items-center justify-center">
+            <iframe id="videoPlayer" class="w-full h-full" src="https://www.youtube.com/embed/kdHi6JSbaO4?si=nk0V_FmlyXFD42w1" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Prestasi list on the right -->
+        <div class="w-1/4 bg-gray-100 p-6 overflow-y-auto"> 
+            <div class="space-y-4">
+                <div onclick="changeVideo('https://www.youtube.com/embed/Y6jg_IesS5M?si=vHHO87LQdJhWzI_X')" class="bg-gray-200 p-3 rounded-md hover:bg-blue-200 cursor-pointer transition-all"> <strong>MATA JARUM </strong> - UTAS STUDIO</div>
+                <div onclick="changeVideo('https://www.youtube.com/embed/fYbXmHe2lPI?si=OHnejV-Au6GFxNBh')" class="bg-gray-200 p-3 rounded-md hover:bg-sky-200 cursor-pointer transition-all"> <strong>Jejak Tanpa Wujud </strong> - QUATRIX</div>
+                <div onclick="changeVideo('https://www.youtube.com/embed/kG053jui_ho?si=UJ0LRlz2M34YYqd1')" class="bg-gray-200 p-3 rounded-md hover:bg-blue-200 cursor-pointer transition-all"> <strong>Tugas Terakhir </strong> - LENTERA KAYRA</div>
+                <div onclick="changeVideo('https://www.youtube.com/embed/k_a_CnGIG50?si=nwF2l3B0edJV14TW')" class="bg-gray-200 p-3 rounded-md hover:bg-sky-200 cursor-pointer transition-all"> <strong>Berpulang </strong> - Abhinaya Productions</div>
+                <div onclick="changeVideo('https://www.youtube.com/embed/hcmf_DfvcgM?si=Ndt1j5eLXHcig60R')" class="bg-gray-200 p-3 rounded-md hover:bg-blue-200 cursor-pointer transition-all"> <strong>Kembalinya Yang Hilang</strong> - BORARA</div>
+                
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="bg-blue-600 font-bold text-white text-center p-4">
+      <marquee behavior="scroll" direction="left">
+          Selamat Datang di Website Memo Diklat 33! 🔥 Lihat berbagai trailer movie karya angkatan 33 yang super KEREN! 🔥
+      </marquee>
+    </div>
+</body>
+</html>
+
